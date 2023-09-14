@@ -24,8 +24,8 @@ tailwind.config = {
              backgroundImage: {
         'bannerWhy': "url('../images/bg (12).png')",
         'youMay': "url('../images/bg (11).png')",
-        'banner': "url('../images/bg (5).png')",
-        // 'bannerWhy': "url('../images/bg (12).png')",
+        
+        'bannerImg': "url('../images/image.png')",
         // 'bannerWhy': "url('../images/bg (12).png')",
         // 'bannerWhy': "url('../images/bg (12).png')",
         
