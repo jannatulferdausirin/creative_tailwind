@@ -18,6 +18,9 @@ tailwind.config = {
         'gray': '#726E9E',
         'white': '#FAFAFE',
         'offWhite': '#EFF4FA',
+        'lightWhite': '#F6F5FF',
+        'lightGray': '#6C7D93',
+        'ash': '#E6E5F3',
         
       },
           // background-images start here
