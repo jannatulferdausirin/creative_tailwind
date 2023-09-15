@@ -21,6 +21,7 @@ tailwind.config = {
         'lightWhite': '#F6F5FF',
         'lightGray': '#6C7D93',
         'ash': '#E6E5F3',
+        'darkAsh': '#4F585F',
         
       },
           // background-images start here
@@ -29,7 +30,7 @@ tailwind.config = {
         'youMay': "url('../images/bg (11).png')",
         
         'bannerImg': "url('../images/image.png')",
-        // 'bannerWhy': "url('../images/bg (12).png')",
+        'happyClient': "url('../images/bg (7).png')",
         // 'bannerWhy': "url('../images/bg (12).png')",
         
       }    
