@@ -22,18 +22,17 @@ tailwind.config = {
         'lightGray': '#6C7D93',
         'ash': '#E6E5F3',
         'darkAsh': '#4F585F',
+        'pureWhite':'#FFFFFF',
         
       },
           // background-images start here
              backgroundImage: {
-        'bannerWhy': "url('../images/bg (12).png')",
-        'youMay': "url('../images/bg (11).png')",
-        
-        'bannerImg': "url('../images/image.png')",
-        'happyClient': "url('../images/bg (7).png')",
-        // 'bannerWhy': "url('../images/bg (12).png')",
-        
-      }    
+            'bannerWhy': "url('../images/bg (12).png')",
+            'youMay': "url('../images/bg (11).png')",
+            'bannerImg': "url('../images/image.png')",
+            'happyClient': "url('../images/bg (7).png')",
+            // 'rightPlan': "url('../images/bg (6).png')",
+    }  
     },
        
   }
