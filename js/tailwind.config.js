@@ -27,11 +27,11 @@ tailwind.config = {
       },
           // background-images start here
              backgroundImage: {
-            'bannerWhy': "url('../images/bg (12).png')",
-            'youMay': "url('../images/bg (11).png')",
-            'bannerImg': "url('./images/image.png')",
-            'happyClient': "url('../images/bg (7).png')",
-            // 'rightPlan': "url('../images/bg (6).png')",
+             'bannerWhy': "url('../images/bg (12).png')",
+             'youMay': "url('../images/bg (11).png')",
+             'bannerImg': "url('../images/image.png')",
+             'happyClient': "url('../images/bg (7).png')",
+             // 'rightPlan': "url('../images/bg (6).png')",
     }  
     },
        
