@@ -22,7 +22,11 @@ tailwind.config = {
         'lightGray': '#6C7D93',
         'ash': '#E6E5F3',
         'darkAsh': '#4F585F',
-        'pureWhite':'#FFFFFF',
+        'pureWhite': '#FFFFFF',
+        'overly': 'rgba(106,98,197,0.9)',
+        'navColor': 'rgba(22,12,109,0.50)',
+        
+        
         
       },
           // background-images start here

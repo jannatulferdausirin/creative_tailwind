@@ -14,62 +14,54 @@
       rel="stylesheet"
     />
     <!-- google fonts end here -->
+    <!-- font awesome cdn start here -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font awesome cdn end here -->
     <title>Creative Tailwind</title>
   </head>
   <body>
     <!-----------------------------
           navbar start here
       --------------------------- -->
-      
-    <section class="bg-dark-violet w-full opacity-80 py-4 ">
-      <div class="container w-[1170px] mx-auto">
-          <ul class="flex text-center items-center justify-between text-offWhite font-primaryFonts text-4 font-semibold ">
-            <li>
-              <img src="./images/Logo (1).png" alt="">
-            </li>
-            <li>
-              <a class="text-dark-green" href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">About</a>
-            </li>
-            <li>
-              <a href="#">Service</a>
-            </li>
-            <li>
-              <a href="#">Portfolio</a>
-            </li>
-            <li>
-              <a href="#">Price</a>
-            </li>
-            <li>
-              <a href="#">Blog</a>
-            </li>
-             <button  class="bg-dark-green text-white font-primaryFonts text-[20px] px-[20px] py-[12px] rounded-full ">Contact Us</button>
-          </ul>
+      <div class="bg-navColor py-[18px] fixed top-0 left-0 w-full">
+        <div class="w-container w-[1170px] mx-auto flex">
+          <div class="w-[15%]">
+           <picture>
+            <img src="./images/Logo (1).png" alt="Logo (1).png
+            " loading="lazy">
+           </picture>
+          </div>
+          <div class="w-[75%] py-[20px]">
+            <ul class="flex justify-center text-white">
+              <li><a href="#" class=" text-lg pe-[20px] font-primaryFonts font-semibold "></a>Home<i class="fa-solid fa-angle-down align-middle ms-[5px]"></i></li>
+              <li><a href="#" class=" text-lg pe-[20px] font-primaryFonts font-semibold "></a>Services<i class="fa-solid fa-angle-down align-middle ms-[5px] "></i></li>
+              <li><a href="#" class=" text-lg pe-[20px] font-primaryFonts font-semibold "></a>About<i class="fa-solid fa-angle-down align-middle ms-[5px] "></i></li>
+              <li><a href="#" class=" text-lg pe-[20px] font-primaryFonts font-semibold "></a>Portfolio<i class="fa-solid fa-angle-down align-middle ms-[5px]"></i></li>
+              <li><a href="#" class=" text-lg pe-[20px] font-primaryFonts font-semibold "></a>Price<i class="fa-solid fa-angle-down align-middle ms-[5px]"></i></li>
+              <li><a href="#" class=" text-lg pe-[20px] font-primaryFonts font-semibold "></a>Blogs<i class="fa-solid fa-angle-down align-middle ms-[5px]"></i></li>
+            
+            </ul>
+          </div>
+          <div class="w-[15%] py-[20px]">
+            <a href="#" class="px-[28px] py-[14px] border border-dark-green rounded-full text-white text-lg hover:bg-dark-green">Contact Us</a>
+          </div>
         </div>
       </div>
-   </section>
     <!-- navbar end here -->
-    <!--   -->
+    
     <!------------------------------
        banner part start here 
       -------------------------------->
-    <section class=" bg-bannerImg bg-cover bg-no-repeat bg-center">
-     <div class="pt-20 flex  justify-center items-center overly w-full
-             bg-light-violet opacity-90">
-       <div class="container w-[1170px] mx-auto text-white text-center">
-        <div class=" pt-[184px]">
-          <h1 class="font-primaryFonts font-bold text-7xl w-[977px] leading-[100px] mx-auto pb-7">YOU’RE UNIQUE.YOUR WEBSITE SHOULD BE TOO</h1>
-          <p class="font-secondaryFonts text-2xl leading-[40px] font-normal w-[740px] text-center items-center  mx-auto pb-5">A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business. </p>
-        </div>
-        <div class="pb-64">
-          <button  class="bg-dark-green text-white font-primaryFonts text-[20px] px-[40px] py-[20px] rounded-full mr-5">Get Free Quoto</button>
-          <button  class="border-2 border-dark-green text-white font-primaryFonts text-[20px] px-[40px] py-[20px] rounded-full ">Learn More</button>
-        </div>
+    <div class=" bg-bannerImg bg-cover bg-center  bg-no-repeat ">
+     <div class="py-[260px] bg-overly ">
+       <div class="container w-[962px] mx-auto text-white text-center ">
+          <h1 class="font-primaryFonts font-bold text-7xl  leading-[100px] ">You’re Unique.Your Website Should be too</h1>
+          <p class="font-secondaryFonts text-2xl leading-[40px] font-normal px-[120px]">A beautiful website passionately crafted for your small business.  Our Digital Agency development has changed the way brands and businesses use technology for growing business. </p>
+         <a href="#" class="px-[28px] py-[14px] border border-dark-green rounded-full text-white text-lg hover:bg-dark-green inline block me-[10px] mt-[40px] ">Get Free Quoto</a>
+          <a href="#" class="px-[28px] py-[14px] border border-dark-green rounded-full text-white text-lg hover:bg-dark-green inline-block  mt-[40px]">Learn More</a>
       </div>
      </div>
-    </section>
+     </div>
     <!-- banner part end here -->
     <!-------------------------
       happy client part start here
